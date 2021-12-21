@@ -1,0 +1,31 @@
+{
+    "id": "96406a02-ce3c-4e1d-acde-5925bd149ab9",
+    "name": "Great Control Task",
+    "publisher": "B. Gábor & B. Fanni",
+    "version": "1.0.0.0",
+    "brief": "",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "dependencies": [],
+    "screenshots": [],
+    "platform": "1.0.0.0",
+    "application": "19.0.0.0",
+    "idRanges": [
+      {
+        "from": 51600,
+        "to": 51699
+      }
+    ],
+    "features": ["TranslationFile"],
+    "resourceExposurePolicy": {
+      "allowDebugging": true,
+      "allowDownloadingSource": false,
+      "includeSourceInSymbolFile": false
+    },
+    "runtime": "8.0"
+  }
+  

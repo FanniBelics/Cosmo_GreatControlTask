@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Great Control Task">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 215835503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GCT Macronutrients</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Macronutrients Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 215835503 - Field 3547098086 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Carbohydrate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Macronutrients Header - Field Carbohydrate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 215835503 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Macronutrients Header - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 215835503 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Macronutrients Header - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 215835503 - Field 1575806285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fat</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Macronutrients Header - Field Fat - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 215835503 - Field 2799087047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kcal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Macronutrients Header - Field Kcal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 215835503 - Field 2526689939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>KJ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Macronutrients Header - Field KJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 215835503 - Field 2979945781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Protein</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Macronutrients Header - Field Protein - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 215835503 - Field 1920046521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Macronutrients Header - Field Unit of Measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3385174577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GCT Nutrition Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3385174577 - Field 3059521325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> Nutrition number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Header - Field  Nutrition number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3385174577 - Field 1994964448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Header - Field Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3385174577 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Header - Field Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3385174577 - Field 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Header - Field Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3385174577 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Header - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 359231562 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GCT Nutrition Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 359231562 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Line - Field Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 359231562 - Field 3547098086 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Carbohydrate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Line - Field Carbohydrate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 359231562 - Field 1575806285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fat</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Line - Field Fat - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 359231562 - Field 2799087047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kcal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Line - Field Kcal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 359231562 - Field 2526689939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>KJ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Line - Field KJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 359231562 - Field 3769007615 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nutrition Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Line - Field Nutrition Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 359231562 - Field 2295256373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nutrition number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Line - Field Nutrition number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 359231562 - Field 2979945781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Protein</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Line - Field Protein - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 359231562 - Field 2015009925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Serial number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Line - Field Serial number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 359231562 - Field 1920046521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Line - Field Unit of Measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 44789093 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Macronutrients</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GCT Macronutrients List Page - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 44789093 - Control 3547098086 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Carbohydrate field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GCT Macronutrients List Page - Control Carbohydrate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 44789093 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GCT Macronutrients List Page - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 44789093 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GCT Macronutrients List Page - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 44789093 - Control 1575806285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Fat field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GCT Macronutrients List Page - Control Fat - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 44789093 - Control 2799087047 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Kcal field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GCT Macronutrients List Page - Control Kcal - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 44789093 - Control 2526689939 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the KJ field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GCT Macronutrients List Page - Control KJ - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 44789093 - Control 2979945781 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Protein field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GCT Macronutrients List Page - Control Protein - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4239173651 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Macronutrients Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GCT Macronutrients Page - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4239173651 - Control 3547098086 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Carbohydrate field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GCT Macronutrients Page - Control Carbohydrate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4239173651 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GCT Macronutrients Page - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4239173651 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GCT Macronutrients Page - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4239173651 - Control 1575806285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Fat field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GCT Macronutrients Page - Control Fat - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4239173651 - Control 2799087047 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Kcal field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GCT Macronutrients Page - Control Kcal - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4239173651 - Control 2526689939 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the KJ field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GCT Macronutrients Page - Control KJ - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4239173651 - Control 2979945781 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Protein field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GCT Macronutrients Page - Control Protein - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4239173651 - Control 1920046521 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Unit of Measure field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GCT Macronutrients Page - Control Unit of Measure - Property ToolTip</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
