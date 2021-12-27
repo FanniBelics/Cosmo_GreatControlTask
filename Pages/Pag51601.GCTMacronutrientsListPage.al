@@ -14,7 +14,7 @@ page 51601 "GCT Macronutrients List Page"
         {
             repeater(General)
             {
-                field("Code"; Rec."Code")
+                field("MacroCode"; Rec."MacroCode")
                 {
                     ToolTip = 'Specifies the value of the Code field.';
                     ApplicationArea = All;

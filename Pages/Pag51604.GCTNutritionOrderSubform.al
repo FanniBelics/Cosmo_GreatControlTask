@@ -1,30 +1,47 @@
-page 51600 "GCT Macronutrients Page"
+page 51604 "GCT Nutrition Order Subform"
 {
 
-    Caption = 'Macronutrients Page';
-    PageType = Document;
-    SourceTable = "GCT Macronutrients Header";
+    Caption = 'GCT Nutrition Order Subform';
+    PageType = ListPart;
+    SourceTable = "GCT Nutrition Line";
+
 
     layout
     {
         area(content)
         {
-            group(General)
+            repeater(General)
             {
-                field("MacroCode"; Rec."MacroCode")
+                field("Nutrition Number"; Rec."Nutrition Number")
                 {
-                    ToolTip = 'Specifies the value of the Code field.';
+                    ToolTip = 'Specifies the value of the Nutrition number field.';
                     ApplicationArea = All;
                 }
-                field(Description; Rec.Description)
+                field("Serial number"; Rec."Serial number")
                 {
-                    ToolTip = 'Specifies the value of the Description field.';
+                    ToolTip = 'Specifies the value of the Serial number field.';
+                    ApplicationArea = All;
+                }
+                field("Nutrition Code"; Rec."Nutrition Code")
+                {
+                    ToolTip = 'Specifies the value of the Nutrition Code field.';
+                    ApplicationArea = All;
+                }
+                field("Nutrition Name"; Rec."Nutrition Name")
+                {
+                    ToolTip = 'Specifies the value of the Nutrition Code field.';
+                    ApplicationArea = All;
+                }
+                field(Amount; Rec.Amount)
+                {
+                    ToolTip = 'Specifies the value of the Amount field.';
                     ApplicationArea = All;
                 }
                 field(Protein; Rec.Protein)
                 {
                     ToolTip = 'Specifies the value of the Protein field.';
                     ApplicationArea = All;
+
                 }
                 field(Fat; Rec.Fat)
                 {
@@ -34,11 +51,6 @@ page 51600 "GCT Macronutrients Page"
                 field(Carbohydrate; Rec.Carbohydrate)
                 {
                     ToolTip = 'Specifies the value of the Carbohydrate field.';
-                    ApplicationArea = All;
-                }
-                field("Unit of Measure"; Rec."Unit of Measure")
-                {
-                    ToolTip = 'Specifies the value of the Unit of Measure field.';
                     ApplicationArea = All;
                 }
                 field(KJ; Rec.KJ)
@@ -54,5 +66,4 @@ page 51600 "GCT Macronutrients Page"
             }
         }
     }
-
 }

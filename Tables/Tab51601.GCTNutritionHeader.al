@@ -14,11 +14,23 @@ table 51601 "GCT Nutrition Header"
         {
             Caption = 'Customer';
             DataClassification = CustomerContent;
+            TableRelation = Customer;
+            trigger OnValidate()
+            var
+                Customer: Record Customer;
+            begin
+                if Customer.Get(Rec."Customer") then
+                    Rec."Customer Name" := Customer.Name
+                else
+                    Rec."Customer Name" := '';
+
+            end;
         }
         field(3; "Customer Name"; Text[100])
         {
             Caption = 'Customer Name';
             DataClassification = CustomerContent;
+            Editable = false;
         }
         field(4; "Date"; Date)
         {

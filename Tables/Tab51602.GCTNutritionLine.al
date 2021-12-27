@@ -2,12 +2,14 @@ table 51602 "GCT Nutrition Line"
 {
     Caption = 'GCT Nutrition Line';
     DataClassification = CustomerContent;
+    LookupPageId = "GCT Macronutrients List Page";
+    DrillDownPageId = "GCT Macronutrients List Page";
 
     fields
     {
-        field(1; "Nutrition number"; Code[20])
+        field(1; "Nutrition Number"; Code[20])
         {
-            Caption = 'Nutrition number';
+            Caption = 'Nutrition Number';
             DataClassification = CustomerContent;
         }
         field(2; "Serial number"; Integer)
@@ -19,53 +21,62 @@ table 51602 "GCT Nutrition Line"
         {
             Caption = 'Nutrition Code';
             DataClassification = CustomerContent;
-            TableRelation = "GCT Macronutrients Header" where(Code = field("Nutrition Code"));
+            TableRelation = "GCT Macronutrients Header" where(MacroCode = field("Nutrition Code"));
         }
-        field(4; Amount; Integer)
+
+        field(4; "Nutrition Name"; Text[2048])
+        {
+            Caption = 'Nutrition Name';
+            Editable = false;
+            FieldClass = FlowField;
+            CalcFormula = lookup("GCT Macronutrients Header".Description where(MacroCode = field("Nutrition Code")));
+
+        }
+
+        field(5; Amount; Integer)
         {
             Caption = 'Amount';
             DataClassification = CustomerContent;
-        }
-        field(5; Protein; Decimal)
-        {
-            Caption = 'Protein';
-            FieldClass = FlowField;
             trigger OnValidate()
             var
-                MacronutrientsHeader: Record "GCT Macronutrients Header";
-                Amount: Integer;
-                Protein: Decimal;
-
+                NutritionLineManager: Codeunit "Nutrition Line Manager";
             begin
-                Amount := Rec.Amount;
-                Protein := MacronutrientsHeader.Protein;
-                Rec.Protein := Amount * Protein;
+                NutritionLineManager.calcProtein(Rec);
+                NutritionLineManager.calcFat(Rec);
+                NutritionLineManager.calcCarbo(Rec);
+                NutritionLineManager.calcKJ(Rec);
+                NutritionLineManager.calcKcal(Rec);
             end;
         }
-        field(6; Fat; Decimal)
+        field(6; Protein; Integer)
+        {
+            Caption = 'Protein';
+            DataClassification = CustomerContent;
+        }
+        field(7; Fat; Integer)
         {
             Caption = 'Fat';
-            FieldClass = FlowField;
+            DataClassification = CustomerContent;
         }
-        field(7; Carbohydrate; Decimal)
+        field(8; Carbohydrate; Integer)
         {
             Caption = 'Carbohydrate';
-            FieldClass = FlowField;
+            DataClassification = CustomerContent;
         }
-        field(8; "Unit of Measure"; Code[10])
+        field(9; "Unit of Measure"; Code[10])
         {
             Caption = 'Unit of Measure';
             DataClassification = CustomerContent;
         }
-        field(9; KJ; Decimal)
+        field(10; KJ; Integer)
         {
             Caption = 'KJ';
-            FieldClass = FlowField;
+            DataClassification = CustomerContent;
         }
-        field(10; Kcal; Decimal)
+        field(11; Kcal; Integer)
         {
             Caption = 'Kcal';
-            FieldClass = FlowField;
+            DataClassification = CustomerContent;
         }
     }
     keys
@@ -76,4 +87,6 @@ table 51602 "GCT Nutrition Line"
         }
     }
 
+    var
+        GCTMacronutrientsHeader: Record "GCT Macronutrients Header";
 }

@@ -5,7 +5,7 @@ table 51600 "GCT Macronutrients Header"
 
     fields
     {
-        field(1; "Code"; Code[20])
+        field(1; "MacroCode"; Code[20])
         {
             Caption = 'Code';
             DataClassification = CustomerContent;
@@ -15,17 +15,17 @@ table 51600 "GCT Macronutrients Header"
             Caption = 'Description';
             DataClassification = CustomerContent;
         }
-        field(3; Protein; Decimal)
+        field(3; Protein; Integer)
         {
             Caption = 'Protein';
             DataClassification = CustomerContent;
         }
-        field(4; Fat; Decimal)
+        field(4; Fat; Integer)
         {
             Caption = 'Fat';
             DataClassification = CustomerContent;
         }
-        field(5; Carbohydrate; Decimal)
+        field(5; Carbohydrate; Integer)
         {
             Caption = 'Carbohydrate';
             DataClassification = CustomerContent;
@@ -34,14 +34,14 @@ table 51600 "GCT Macronutrients Header"
         {
             Caption = 'Unit of Measure';
             DataClassification = CustomerContent;
-            TableRelation = "Item Unit of Measure" where("Item No." = field(Code));
+            TableRelation = "Item Unit of Measure" where("Item No." = field(MacroCode));
         }
-        field(7; KJ; Decimal)
+        field(7; KJ; Integer)
         {
             Caption = 'KJ';
             DataClassification = CustomerContent;
         }
-        field(8; Kcal; Decimal)
+        field(8; Kcal; Integer)
         {
             Caption = 'Kcal';
             DataClassification = CustomerContent;
@@ -49,7 +49,7 @@ table 51600 "GCT Macronutrients Header"
     }
     keys
     {
-        key(PK; "Code")
+        key(PK; "MacroCode")
         {
             Clustered = true;
         }
