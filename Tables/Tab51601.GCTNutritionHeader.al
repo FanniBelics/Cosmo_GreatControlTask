@@ -17,12 +17,9 @@ table 51601 "GCT Nutrition Header"
             TableRelation = Customer;
             trigger OnValidate()
             var
-                Customer: Record Customer;
+                NutritionHeaderManagement: Codeunit "Nutrition Header Management";
             begin
-                if Customer.Get(Rec."Customer") then
-                    Rec."Customer Name" := Customer.Name
-                else
-                    Rec."Customer Name" := '';
+                NutritionHeaderManagement.fidnCustomerByNumber(Rec);
 
             end;
         }
@@ -42,6 +39,7 @@ table 51601 "GCT Nutrition Header"
             Caption = 'Status';
             DataClassification = CustomerContent;
             OptionMembers = Open,Closed;
+            Editable = false;
         }
     }
     keys

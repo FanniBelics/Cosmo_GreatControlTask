@@ -338,6 +338,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Nutrition Order - Control Status - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2869767122 - Action 2711167031 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Release</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nutrition Order - Action ReleaseStatus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2869767122 - Action 1928905313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ReOpen</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nutrition Order - Action ReopenStatus - Property Caption</note>
+        </trans-unit>
       </group>
     </body>
   </file>
