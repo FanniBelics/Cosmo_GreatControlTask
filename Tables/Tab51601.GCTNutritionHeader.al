@@ -5,7 +5,7 @@ table 51601 "GCT Nutrition Header"
 
     fields
     {
-        field(1; " Nutrition number"; Code[20])
+        field(1; "Nutrition number"; Code[20])
         {
             Caption = ' Nutrition number';
             DataClassification = CustomerContent;
@@ -44,7 +44,7 @@ table 51601 "GCT Nutrition Header"
     }
     keys
     {
-        key(PK; " Nutrition number")
+        key(PK; "Nutrition number")
         {
             Clustered = true;
         }

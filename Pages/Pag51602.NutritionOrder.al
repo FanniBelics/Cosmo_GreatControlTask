@@ -11,7 +11,7 @@ page 51602 "Nutrition Order"
         {
             group(General)
             {
-                field(" Nutrition number"; Rec." Nutrition number")
+                field(" Nutrition number"; Rec."Nutrition number")
                 {
                     ToolTip = 'Specifies the value of the  Nutrition number field.';
                     ApplicationArea = All;
@@ -47,7 +47,7 @@ page 51602 "Nutrition Order"
             part(Lines; "GCT Nutrition Order Subform")
             {
                 ApplicationArea = All;
-                SubPageLink = "Nutrition Number" = field(" Nutrition number");
+                SubPageLink = "Nutrition Number" = field("Nutrition number");
             }
         }
     }

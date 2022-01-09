@@ -14,7 +14,7 @@ page 51603 "GCT Nutrition Line"
         {
             repeater(General)
             {
-                field(" Nutrition number"; Rec." Nutrition number")
+                field(" Nutrition number"; Rec."Nutrition number")
                 {
                     ToolTip = 'Specifies the value of the  Nutrition number field.';
                     ApplicationArea = All;

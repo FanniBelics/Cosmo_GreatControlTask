@@ -15,4 +15,12 @@ codeunit 51604 "Nutrition Order Event Handler"
     begin
         NutritionOrderManager.Reopen(Rec);
     end;
+
+    [EventSubscriber(ObjectType::Page, Page::"Nutrition Order", 'OnBeforeActionEvent', 'ExportDocument', false, false)]
+    local procedure MyProcedure(var Rec: Record "GCT Nutrition Header")
+    var
+        NutritionOrderManager: Codeunit "Nutrition Order Manager";
+    begin
+        NutritionOrderManager.ExportDocument(Rec);
+    end;
 }

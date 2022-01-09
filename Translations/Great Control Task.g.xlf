@@ -53,11 +53,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Header - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 3385174577 - Field 3059521325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source> Nutrition number</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Header - Field  Nutrition number - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Table 3385174577 - Field 1994964448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -72,6 +67,11 @@
           <source>Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Header - Field Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3385174577 - Field 2295256373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> Nutrition number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Header - Field Nutrition number - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3385174577 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Status</source>
@@ -137,6 +137,16 @@
           <source>Unit of Measure</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Line - Field Unit of Measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1452639 - Method 688484077 - NamedType 575328996" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nutritions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Nutrition Order Manager - Method ExportDocument - NamedType sheetname</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1452639 - Method 688484077 - NamedType 989751795" size-unit="char" translate="yes" xml:space="preserve">
+          <source>.\Exported\%1s_Intake</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Nutrition Order Manager - Method ExportDocument - NamedType FileName</note>
         </trans-unit>
         <trans-unit id="Page 44789093 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Macronutrients</source>
@@ -337,6 +347,16 @@
           <source>Specifies the value of the Status field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Nutrition Order - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2869767122 - Action 688484077 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nutrition Order - Action ExportDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2869767122 - Action 2172547201 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nutrition Order - Action PostDocument - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2869767122 - Action 2711167031 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Release</source>
