@@ -69,6 +69,20 @@ page 51602 "Nutrition Order"
                 Image = ReOpen;
                 ApplicationArea = All;
             }
+
+            action(ExportDocument)
+            {
+                Caption = 'Export Document';
+                Image = Export;
+                ApplicationArea = All;
+            }
+
+            action(PostDocument)
+            {
+                Caption = 'Post Document';
+                Image = Post;
+                ApplicationArea = All;
+            }
         }
     }
 
