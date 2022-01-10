@@ -138,6 +138,116 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table GCT Nutrition Line - Field Unit of Measure - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2554399465 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nutrition Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nutrition Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2554399465 - Field 4105412465 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Series for Nutrients</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nutrition Setup - Field No. Series for Nutrients - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2554399465 - Field 2542794289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PKEY</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nutrition Setup - Field PKEY - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 638393426 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 638393426 - Field 1994964448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Header - Field Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 638393426 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Header - Field Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 638393426 - Field 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Header - Field Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 638393426 - Field 2295256373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> Nutrition number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Header - Field Nutrition number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 638393426 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Header - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2048747010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted List Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PostedLine1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2048747010 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PostedLine1 - Field Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2048747010 - Field 3547098086 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Carbohydrate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PostedLine1 - Field Carbohydrate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2048747010 - Field 1575806285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fat</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PostedLine1 - Field Fat - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2048747010 - Field 2799087047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kcal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PostedLine1 - Field Kcal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2048747010 - Field 2526689939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>KJ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PostedLine1 - Field KJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2048747010 - Field 3769007615 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nutrition Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PostedLine1 - Field Nutrition Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2048747010 - Field 407151881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nutrition Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PostedLine1 - Field Nutrition Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2048747010 - Field 275121493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nutrition Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PostedLine1 - Field Nutrition Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2048747010 - Field 2979945781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Protein</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PostedLine1 - Field Protein - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2048747010 - Field 2015009925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Serial number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PostedLine1 - Field Serial number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2048747010 - Field 1920046521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table PostedLine1 - Field Unit of Measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 597925687 - Method 3901635404 - NamedType 70101521" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to delete the open %1 document?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cod Posted document Management - Method PostDoc - NamedType QLabel</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1452639 - Method 688484077 - NamedType 575328996" size-unit="char" translate="yes" xml:space="preserve">
           <source>Nutritions</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -367,6 +477,151 @@
           <source>ReOpen</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Nutrition Order - Action ReopenStatus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3713557432 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nutrition Setup Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nutrition Setup Page - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3713557432 - Control 4105412465 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. Series for Nutrients field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nutrition Setup Page - Control No. Series for Nutrients - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3007670383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Line List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Line List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3007670383 - Control 3059521325 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the  Nutrition number field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Line List - Control  Nutrition number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3007670383 - Control 1994964448 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Line List - Control Customer - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3007670383 - Control 1171137197 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer Name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Line List - Control Customer Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3007670383 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Date field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Line List - Control Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3007670383 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Status field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Line List - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1125311345 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1125311345 - Control 3059521325 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the  Nutrition number field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Order - Control  Nutrition number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1125311345 - Control 1994964448 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Order - Control Customer - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1125311345 - Control 1171137197 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer Name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Order - Control Customer Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1125311345 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Date field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Order - Control Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1125311345 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Status field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Order - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1125311345 - Action 688484077 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Order - Action ExportDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1125311345 - Action 2172547201 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Order - Action PostDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1125311345 - Action 2711167031 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Release</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Order - Action ReleaseStatus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1125311345 - Action 1928905313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ReOpen</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Order - Action ReopenStatus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 163863149 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Subform</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedSubform - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 163863149 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Amount field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedSubform - Control Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 163863149 - Control 3547098086 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Carbohydrate field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedSubform - Control Carbohydrate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 163863149 - Control 1575806285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Fat field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedSubform - Control Fat - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 163863149 - Control 2799087047 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Kcal field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedSubform - Control Kcal - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 163863149 - Control 2526689939 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the KJ field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedSubform - Control KJ - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 163863149 - Control 3769007615 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Nutrition Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedSubform - Control Nutrition Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 163863149 - Control 407151881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Nutrition Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedSubform - Control Nutrition Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 163863149 - Control 275121493 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Nutrition number field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedSubform - Control Nutrition Number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 163863149 - Control 2979945781 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Protein field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedSubform - Control Protein - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 163863149 - Control 2015009925 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Serial number field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PostedSubform - Control Serial number - Property ToolTip</note>
         </trans-unit>
       </group>
     </body>

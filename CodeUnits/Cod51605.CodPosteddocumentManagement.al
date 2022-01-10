@@ -8,11 +8,15 @@ codeunit 51605 "Cod Posted document Management"
         poestedLineDoc: Record "PostedLine1";
         DocLine: Record "GCT Nutrition Line";
         QLabel: Label 'Do you want to delete the open %1 document?';
+        Setup: Record "Nutrition Setup";
+        NoSeriesManagement: Codeunit NoSeriesManagement;
 
     begin
         Document.TestField(Status, Document.Status::Closed);
         PostedDocHead.Init();
         PostedDocHead.TransferFields(Document);
+        Setup.Get();
+        PostedDocHead."Nutrition number" := NoSeriesManagement.GetNextNo(Setup."No. Series for Nutrients", Today, true);
         PostedDocHead.Insert();
         DocLine.Reset();
         DocLine.SetRange("Nutrition Number", Document."Nutrition number");
@@ -20,6 +24,7 @@ codeunit 51605 "Cod Posted document Management"
             repeat
                 poestedLineDoc.Init();
                 poestedLineDoc.TransferFields(DocLine);
+                poestedLineDoc."Nutrition number" := PostedDocHead."Nutrition number";
                 poestedLineDoc.Insert();
 
 

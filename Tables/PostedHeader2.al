@@ -44,6 +44,17 @@ table 51604 "Posted Header"
         }
     }
 
+    trigger OnInsert()
+    var
+        Setup: Record "Nutrition Setup";
+        NoSeriesManagement: Codeunit NoSeriesManagement;
+    begin
+        if "Nutrition number" = '' then begin
+            Setup.Get();
+            "Nutrition number" := NoSeriesManagement.GetNextNo(Setup."No. Series for Nutrients", Today, true);
+        end;
+    end;
+
 
 
 

@@ -7,6 +7,7 @@ page 51607 "Posted Line List"
     SourceTable = "Posted Header";
     UsageCategory = Lists;
     CardPageId = "Posted Order";
+    DelayedInsert = false;
 
     layout
     {

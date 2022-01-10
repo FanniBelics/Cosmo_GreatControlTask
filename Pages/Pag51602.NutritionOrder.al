@@ -48,6 +48,7 @@ page 51602 "Nutrition Order"
             {
                 ApplicationArea = All;
                 SubPageLink = "Nutrition Number" = field("Nutrition number");
+                Editable = editable;
             }
         }
     }
@@ -82,6 +83,13 @@ page 51602 "Nutrition Order"
                 Caption = 'Post Document';
                 Image = Post;
                 ApplicationArea = All;
+                trigger OnAction()
+                var
+                    unicpost: Codeunit "Cod Posted document Management";
+                begin
+                    unicpost.PostDoc(Rec);
+
+                end;
             }
         }
     }
