@@ -1,18 +1,18 @@
 table 51601 "GCT Nutrition Header"
 {
-    Caption = 'GCT Nutrition Header';
+    Caption = 'GCT Táplálék fejléc';
     DataClassification = CustomerContent;
 
     fields
     {
         field(1; "Nutrition number"; Code[20])
         {
-            Caption = ' Nutrition number';
+            Caption = 'Táplálkozási szám';
             DataClassification = CustomerContent;
         }
         field(2; Customer; Code[20])
         {
-            Caption = 'Customer';
+            Caption = 'Vendég';
             DataClassification = CustomerContent;
             TableRelation = Customer;
             trigger OnValidate()
@@ -25,18 +25,18 @@ table 51601 "GCT Nutrition Header"
         }
         field(3; "Customer Name"; Text[100])
         {
-            Caption = 'Customer Name';
+            Caption = 'Vendég neve';
             DataClassification = CustomerContent;
             Editable = false;
         }
         field(4; "Date"; Date)
         {
-            Caption = 'Date';
+            Caption = 'Dátum';
             DataClassification = CustomerContent;
         }
         field(5; Status; Option)
         {
-            Caption = 'Status';
+            Caption = 'Státusz';
             DataClassification = CustomerContent;
             OptionMembers = Open,Closed;
             Editable = false;

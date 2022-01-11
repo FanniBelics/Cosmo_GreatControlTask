@@ -31,6 +31,7 @@ page 51604 "GCT Nutrition Order Subform"
                 {
                     ToolTip = 'Specifies the value of the Nutrition Code field.';
                     ApplicationArea = All;
+                    Editable = false;
                 }
                 field(Amount; Rec.Amount)
                 {
@@ -41,27 +42,32 @@ page 51604 "GCT Nutrition Order Subform"
                 {
                     ToolTip = 'Specifies the value of the Protein field.';
                     ApplicationArea = All;
+                    Editable = false;
 
                 }
                 field(Fat; Rec.Fat)
                 {
                     ToolTip = 'Specifies the value of the Fat field.';
                     ApplicationArea = All;
+                    Editable = false;
                 }
                 field(Carbohydrate; Rec.Carbohydrate)
                 {
                     ToolTip = 'Specifies the value of the Carbohydrate field.';
                     ApplicationArea = All;
+                    Editable = false;
                 }
                 field(KJ; Rec.KJ)
                 {
                     ToolTip = 'Specifies the value of the KJ field.';
                     ApplicationArea = All;
+                    Editable = false;
                 }
                 field(Kcal; Rec.Kcal)
                 {
                     ToolTip = 'Specifies the value of the Kcal field.';
                     ApplicationArea = All;
+                    Editable = false;
                 }
             }
         }

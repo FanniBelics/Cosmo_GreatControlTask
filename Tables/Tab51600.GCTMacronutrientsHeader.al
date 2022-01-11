@@ -7,32 +7,32 @@ table 51600 "GCT Macronutrients Header"
     {
         field(1; "MacroCode"; Code[20])
         {
-            Caption = 'Code';
+            Caption = 'Kód';
             DataClassification = CustomerContent;
         }
         field(2; Description; Text[2048])
         {
-            Caption = 'Description';
+            Caption = 'Leírás';
             DataClassification = CustomerContent;
         }
         field(3; Protein; Integer)
         {
-            Caption = 'Protein';
+            Caption = 'Fehérje';
             DataClassification = CustomerContent;
         }
         field(4; Fat; Integer)
         {
-            Caption = 'Fat';
+            Caption = 'Zsír';
             DataClassification = CustomerContent;
         }
         field(5; Carbohydrate; Integer)
         {
-            Caption = 'Carbohydrate';
+            Caption = 'Szénhidrát';
             DataClassification = CustomerContent;
         }
         field(6; "Unit of Measure"; Code[10])
         {
-            Caption = 'Unit of Measure';
+            Caption = 'Mértékegység';
             DataClassification = CustomerContent;
             TableRelation = "Item Unit of Measure" where("Item No." = field(MacroCode));
         }

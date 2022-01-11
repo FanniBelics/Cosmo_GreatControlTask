@@ -12,7 +12,7 @@ table 51605 "Nutrition Setup"
         }
         field(2; "No. Series for Nutrients"; Code[20])
         {
-            Caption = 'No. Series for Nutrients';
+            Caption = 'Számsorozat a tápanyagoknak';
             DataClassification = ToBeClassified;
             TableRelation = "No. Series".Code;
         }

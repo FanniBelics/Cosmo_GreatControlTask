@@ -1,6 +1,6 @@
 table 51603 "PostedLine1"
 {
-    Caption = 'Posted List Line';
+    Caption = 'Könyvelt Lista';
     DataClassification = CustomerContent;
     LookupPageId = "GCT Macronutrients List Page";
     DrillDownPageId = "GCT Macronutrients List Page";
@@ -9,24 +9,24 @@ table 51603 "PostedLine1"
     {
         field(1; "Nutrition Number"; Code[20])
         {
-            Caption = 'Nutrition Number';
+            Caption = 'Tápanyag száma';
             DataClassification = CustomerContent;
         }
         field(2; "Serial number"; Integer)
         {
-            Caption = 'Serial number';
+            Caption = 'Sorszám';
             DataClassification = CustomerContent;
         }
         field(3; "Nutrition Code"; Code[20])
         {
-            Caption = 'Nutrition Code';
+            Caption = 'Tápanyagkód';
             DataClassification = CustomerContent;
             TableRelation = "GCT Macronutrients Header" where(MacroCode = field("Nutrition Code"));
         }
 
         field(4; "Nutrition Name"; Text[2048])
         {
-            Caption = 'Nutrition Name';
+            Caption = 'Tápanyag neve';
             Editable = false;
             FieldClass = FlowField;
             CalcFormula = lookup("GCT Macronutrients Header".Description where(MacroCode = field("Nutrition Code")));
@@ -35,29 +35,29 @@ table 51603 "PostedLine1"
 
         field(5; Amount; Integer)
         {
-            Caption = 'Amount';
+            Caption = 'Mennyiség';
             DataClassification = CustomerContent;
 
         }
 
         field(6; Protein; Integer)
         {
-            Caption = 'Protein';
+            Caption = 'Fehérje';
             DataClassification = CustomerContent;
         }
         field(7; Fat; Integer)
         {
-            Caption = 'Fat';
+            Caption = 'Zsír';
             DataClassification = CustomerContent;
         }
         field(8; Carbohydrate; Integer)
         {
-            Caption = 'Carbohydrate';
+            Caption = 'Szénhidrát';
             DataClassification = CustomerContent;
         }
         field(9; "Unit of Measure"; Code[10])
         {
-            Caption = 'Unit of Measure';
+            Caption = 'Mértékegység';
             DataClassification = CustomerContent;
         }
         field(10; KJ; Integer)

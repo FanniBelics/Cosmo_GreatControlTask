@@ -1,12 +1,12 @@
-page 51603 "GCT Nutrition Line"
+page 51609 "Posted Nutrition Query Page"
 {
-
-    ApplicationArea = All;
-    Caption = 'GCT Nutrition';
+    Caption = 'Posted Nutrition Query Page';
     PageType = List;
-    SourceTable = "GCT Nutrition Header";
-    UsageCategory = Lists;
-    CardPageId = "Nutrition Order";
+    SourceTable = "Posted Header";
+    UsageCategory = Administration;
+    ApplicationArea = All;
+    QueryCategory = 'Posted Nutrition Query';
+
 
     layout
     {
@@ -14,11 +14,6 @@ page 51603 "GCT Nutrition Line"
         {
             repeater(General)
             {
-                field(" Nutrition number"; Rec."Nutrition number")
-                {
-                    ToolTip = 'Specifies the value of the  Nutrition number field.';
-                    ApplicationArea = All;
-                }
                 field(Customer; Rec.Customer)
                 {
                     ToolTip = 'Specifies the value of the Customer field.';
@@ -28,11 +23,15 @@ page 51603 "GCT Nutrition Line"
                 {
                     ToolTip = 'Specifies the value of the Customer Name field.';
                     ApplicationArea = All;
-                    Editable = false;
                 }
                 field("Date"; Rec."Date")
                 {
                     ToolTip = 'Specifies the value of the Date field.';
+                    ApplicationArea = All;
+                }
+                field("Nutrition number"; Rec."Nutrition number")
+                {
+                    ToolTip = 'Specifies the value of the  Nutrition number field.';
                     ApplicationArea = All;
                 }
                 field(Status; Rec.Status)
@@ -42,7 +41,5 @@ page 51603 "GCT Nutrition Line"
                 }
             }
         }
-
     }
-
 }

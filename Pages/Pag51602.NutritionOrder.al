@@ -42,6 +42,7 @@ page 51602 "Nutrition Order"
                     Editable = editable;
 
                 }
+
             }
 
             part(Lines; "GCT Nutrition Order Subform")

@@ -1,36 +1,36 @@
 table 51604 "Posted Header"
 {
-    Caption = 'Posted Header';
+    Caption = 'Könyvelt Fejléc';
     DataClassification = CustomerContent;
 
     fields
     {
         field(1; "Nutrition number"; Code[20])
         {
-            Caption = ' Nutrition number';
+            Caption = 'Táplálkozási szám';
             DataClassification = CustomerContent;
         }
         field(2; Customer; Code[20])
         {
-            Caption = 'Customer';
+            Caption = 'Vendég';
             DataClassification = CustomerContent;
             TableRelation = Customer;
 
         }
         field(3; "Customer Name"; Text[100])
         {
-            Caption = 'Customer Name';
+            Caption = 'Vendég neve';
             DataClassification = CustomerContent;
             Editable = false;
         }
         field(4; "Date"; Date)
         {
-            Caption = 'Date';
+            Caption = 'Dátum';
             DataClassification = CustomerContent;
         }
         field(5; Status; Option)
         {
-            Caption = 'Status';
+            Caption = 'Státusz';
             DataClassification = CustomerContent;
             OptionMembers = Open,Closed;
             Editable = false;
@@ -43,19 +43,4 @@ table 51604 "Posted Header"
             Clustered = true;
         }
     }
-
-    trigger OnInsert()
-    var
-        Setup: Record "Nutrition Setup";
-        NoSeriesManagement: Codeunit NoSeriesManagement;
-    begin
-        if "Nutrition number" = '' then begin
-            Setup.Get();
-            "Nutrition number" := NoSeriesManagement.GetNextNo(Setup."No. Series for Nutrients", Today, true);
-        end;
-    end;
-
-
-
-
 }
